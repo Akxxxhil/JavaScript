@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+</head>
+<body>
+    <div class="days">
+        <div class="day">Monday</div>
+        <div class="day">Tuesday</div>
+        <div class="day">Wednesday</div>
+        <div class="day">Thursday</div>
+    </div>
+    <script>
+        const data=document.querySelector('.days');
+        //console.log(data);
+        //console.log(data.children)
+        //console.log(data.children[3].innerHTML)
+        for(let i=0;i<data.children.length;i++){
+           console.log(data.children[i].innerHTML);
+} 
+data.children[1].style.backgroundColor="green"
+    </script>
+</body>
+</html>
