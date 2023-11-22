@@ -1,0 +1,24 @@
+.first-page{
+ text-align: center;
+ justify-content: space-around;
+ display: flex; 
+}
+.signup{
+    margin-top: 50px;
+    background-color: cadetblue;
+}
+.login{
+    margin-top: 50px;
+    background-color: blue;
+}
+.signupbutton{
+    background-color: rgb(255, 0, 187);
+    color: black;
+    border: 2px solid black;
+   cursor: pointer;
+}
+.loginbutton{
+    background-color: cadetblue;
+    border: 2px solid black;
+    cursor: pointer;
+}
