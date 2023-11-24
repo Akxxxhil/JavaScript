@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul id="picture">
+        <li><img width="200px" id="owl" src="https://images.pexels.com/photos/3532552/pexels-photo-3532552.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt="" ></li>
+
+        <li><img width="200px" id="japan" src="https://images.pexels.com/photos/3532553/pexels-photo-3532553.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""></li>
+
+        <li>
+            <img width="200px" id="river" src="https://images.pexels.com/photos/3532551/pexels-photo-3532551.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load" alt=""> 
+        </li>
+
+    </ul>
+
+    <!-- <a id="google"  href="https://www.google.com/">google</a> -->
+
+    <!-- bubbling means from inside to out 
+    and capturing means out to in -->
+
+    <script>
+        //document.getElementById('owl').addEventListener('click',function(){
+            //alert("clicked")
+        //})
+
+        //document.getElementById('google').addEventListener('click',function(e){
+            //console.log("google is clicked");
+           // e.preventDefault()
+
+        //},false)
+ document.querySelector('#picture').addEventListener('click',function(e){
+  if(e.target.tagName==='IMG'){
+    e.target.parentNode.remove()
+  }
+ })
+        
+    </script>
+</body>
+</html>
