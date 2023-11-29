@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #start {
+            margin-left: 100px;
+        }
+        #stop {
+            margin-left: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="heading">Akhil is back</h1>
+    <button id="start">start</button>
+    <button id="stop">stop</button>
+    <script>
+        let isStarted = false;
+
+        const startButton = document.querySelector("#start");
+        const stopButton = document.querySelector("#stop");
+        let intervalId;
+       
+
+        startButton.addEventListener('click', function () {
+            if (!isStarted) {
+                isStarted = true;
+                console.log("Start button clicked!");
+                intervalId = setInterval(function () {
+                    console.log("Akhil is Back", Date.now());
+                }, 1000);
+            }
+        });
+
+        stopButton.addEventListener('click', function () {
+            console.log("Stop button clicked!");
+            isStarted = false;
+            clearInterval(intervalId);  // Clear the interval
+        });
+    </script>
+</body>
+</html>
