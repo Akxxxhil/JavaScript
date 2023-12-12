@@ -1,0 +1,1 @@
+1.In JavaScript, the JSON.stringify() method is used to convert a JavaScript object or value to a JSON string.
