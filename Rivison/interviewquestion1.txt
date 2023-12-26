@@ -1,0 +1,64 @@
+Q 1. List some features of JavaScript?
+
+Lightweight,Interpreted programming language,Good for the applications which are network-centric
+
+Complementary to Java
+
+Complementary to HTML
+
+Open-source
+
+Cross-platform
+
+Q .2.What are the Advantages and Disadvantages of JavaScript?
+
+ 
+
+Advantages :
+
+Server interaction is less
+
+Feedback to the visitors is immediate
+
+Interactivity is high
+
+Interfaces are richer
+
+Disadvantages:
+
+No support for multithreading
+
+No support for multiprocessing
+
+Reading and writing of files is not allowed
+
+No support for networking applications.
+
+Q.3.What is the difference between JavaScript and JScript? 
+
+ 
+
+Netscape provided the JavaScript language. Microsoft changed the name and called it JScript to avoid the trademark issue. In other words, you can say JScript is the same as JavaScript, but Microsoft provides it.
+
+Q.4.What kind of scoping does JavaScript use? (eBay)
+
+Ans: Lexical Scope
+
+Q.5.Difference between “ == “ and “ === “ operators? (AMD)
+
+Ans. Both are comparison operators. The difference between both the operators is that “==” is used to compare values whereas, “ === “ is used to compare both values and types.
+
+Q.6.Explain Implicit Type Coercion in javascript? (IBM)
+
+ 
+
+Ans. Implicit type coercion in javascript is the automatic conversion of value from one data type to another. It takes place when the operands of an expression are of different data types.
+
+Q.7.What are undeclared and undefined variables? (Airbnb)
+
+Ans: 
+
+When variables are not declared in a program, then it is known as Undeclared Variables.
+If no variable exists in our program and the program wants to read those variables, it will generate a runtime error.
+When there is the declaration of a variable given no value to the variable inside a program is known as an Undefined Variable.
+when a program wants to read the variable’s value, then the undefined values are returned.
